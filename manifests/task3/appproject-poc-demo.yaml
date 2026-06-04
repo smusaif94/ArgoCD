@@ -5,6 +5,7 @@ metadata:
   namespace: argocd
 spec:
   description: Project for Task 3 ArgoCD learning deployment
+  # Replace with your actual Git repository URL before applying.
   sourceRepos:
     - https://github.com/<your-username>/<your-repo>.git
   destinations:

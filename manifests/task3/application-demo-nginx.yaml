@@ -8,6 +8,7 @@ metadata:
 spec:
   project: poc-demo
   source:
+    # Replace with your actual Git repository URL before applying.
     repoURL: https://github.com/<your-username>/<your-repo>.git
     targetRevision: main
     path: helm/task2-nginx

@@ -32,7 +32,7 @@ argocd app sync demo-nginx
 - `manifests/task3/appproject-poc-demo.yaml`
 - `manifests/task3/application-demo-nginx.yaml`
 
-## Screenshot checklist (replace with your own files)
+## Screenshot Checklist (replace with your own files)
 
 - [ ] ArgoCD UI: Application **Synced + Healthy**
 - [ ] ArgoCD resource tree
