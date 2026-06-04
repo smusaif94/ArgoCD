@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: poc-demo
+  namespace: argocd
+spec:
+  description: Project for Task 3 ArgoCD learning deployment
+  sourceRepos:
+    - https://github.com/<your-username>/<your-repo>.git
+  destinations:
+    - namespace: demo-*
+      server: https://kubernetes.default.svc
+  clusterResourceWhitelist:
+    - group: '*'
+      kind: '*'

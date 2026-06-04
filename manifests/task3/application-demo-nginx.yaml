@@ -1,0 +1,22 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: demo-nginx
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: poc-demo
+  source:
+    repoURL: https://github.com/<your-username>/<your-repo>.git
+    targetRevision: main
+    path: helm/task2-nginx
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: demo-nginx
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
