@@ -9,7 +9,7 @@ spec:
   project: poc-demo
   source:
     # Replace with your actual Git repository URL before applying (example: https://github.com/yourname/argocd-demo.git).
-    repoURL: https://github.com/<your-username>/<your-repo>.git
+    repoURL: https://github.com/REPLACE_WITH_YOUR_USERNAME/REPLACE_WITH_YOUR_REPO.git
     targetRevision: main
     path: helm/task2-nginx
   destination:

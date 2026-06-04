@@ -32,7 +32,7 @@ Why pull-based helps:
 ## Core ArgoCD components used
 
 - **argocd-server**: UI + API server
-- **argocd-repo-server**: fetches/manifests from Git and Helm/Kustomize sources
+- **argocd-repo-server**: fetches manifests from Git and Helm/Kustomize sources
 - **argocd-application-controller**: compares desired vs live state and performs reconciliation
 
 ## Notes
