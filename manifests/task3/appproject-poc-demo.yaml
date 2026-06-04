@@ -7,7 +7,7 @@ spec:
   description: Project for Task 3 ArgoCD learning deployment
   # Replace with your actual Git repository URL before applying (example: https://github.com/yourname/argocd-demo.git).
   sourceRepos:
-    - https://github.com/REPLACE_WITH_YOUR_USERNAME/REPLACE_WITH_YOUR_REPO.git
+    - https://github.com/your-username/your-repo-name.git
   destinations:
     - namespace: demo-*
       server: https://kubernetes.default.svc
