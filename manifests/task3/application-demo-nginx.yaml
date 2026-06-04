@@ -8,7 +8,7 @@ metadata:
 spec:
   project: poc-demo
   source:
-    # Replace with your actual Git repository URL before applying.
+    # Replace with your actual Git repository URL before applying (example: https://github.com/yourname/argocd-demo.git).
     repoURL: https://github.com/<your-username>/<your-repo>.git
     targetRevision: main
     path: helm/task2-nginx
