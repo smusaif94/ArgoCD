@@ -8,7 +8,7 @@ This document captures my hands-on progress for **ArgoCD core installation** and
 - Logged into ArgoCD CLI and rotated the admin password
 - Connected my Git repo and deployed a Helm chart as an ArgoCD Application
 - Enabled automated sync, prune, self-heal, and namespace auto-create
-- Verified Git change detection with `replicaCount: 4`
+- Verified Git change detection by changing `replicaCount` from `2` to `4`
 
 ## Commands used (summary)
 
